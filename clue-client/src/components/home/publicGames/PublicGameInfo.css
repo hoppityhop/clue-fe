@@ -1,0 +1,9 @@
+.border-right {
+    border-right: .1rem solid floralwhite;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Change the color as needed */
+}

@@ -1,0 +1,57 @@
+{
+  "players": [
+    {
+      "id": 2,
+      "sessionId": "38493f2a-e446-43f3-82e8-fb6277bcb840",
+      "name": "Jam",
+      "gameSession": {
+        "externalGameId": "284c6966-7db2-448a-b7aa-52d6bbee5eda",
+        "joinCode": "sYCTMB",
+        "gameName": "Test Game",
+        "sessionId": "38493f2a-e446-43f3-82e8-fb6277bcb840"
+      },
+      "character": {
+        "name": "Miss Scarlet",
+        "characterColor": "scarlet",
+        "movePriority": 1,
+        "imageResource": "/character-images/scarlet.png",
+        "startingHallway": 3,
+        "id": 1
+      },
+      "room": null,
+      "hallway": null,
+      "hand": [],
+      "nextPlayerSessionId": null,
+      "characterId": 1,
+      "turn": false
+    },
+    {
+      "id": 3,
+      "sessionId": "24e5a4c2-d2de-4744-8d01-23209a7a6c44",
+      "name": "Margaret",
+      "gameSession": {
+        "externalGameId": "284c6966-7db2-448a-b7aa-52d6bbee5eda",
+        "joinCode": "sYCTMB",
+        "gameName": "Test Game",
+        "sessionId": "38493f2a-e446-43f3-82e8-fb6277bcb840"
+      },
+      "character": {
+        "name": "Colonel Mustard",
+        "characterColor": "mustard",
+        "movePriority": 2,
+        "imageResource": "/character-images/col-mustard.png",
+        "startingHallway": 4,
+        "id": 2
+      },
+      "room": null,
+      "hallway": null,
+      "hand": [],
+      "nextPlayerSessionId": null,
+      "characterId": 2,
+      "turn": false
+    }
+  ],
+  "currentPlayerSessionId": null,
+  "public": false,
+  "started": false
+}�
