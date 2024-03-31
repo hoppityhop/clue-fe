@@ -1,0 +1,56 @@
+[
+  {
+    "id": 4,
+    "name": "Library",
+    "type": "room",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Library.png"
+  },
+  {
+    "id": 1,
+    "name": "Study",
+    "type": "room",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Study.png"
+  },
+  {
+    "id": 9,
+    "name": "Kitchen",
+    "type": "room",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Kitchen.png"
+  },
+  {
+    "id": 3,
+    "name": "LEAD_PIPE",
+    "type": "weapon",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/weapon-images/pipe.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dining Room",
+    "type": "room",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Dining Room.png"
+  },
+  {
+    "id": 5,
+    "name": "John Peakjock",
+    "type": "suspect",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/character-resources/peacock.png"
+  },
+  {
+    "id": 1,
+    "name": "CANDLESTICK",
+    "type": "weapon",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/weapon-images/candlestick.webp"
+  },
+  {
+    "id": 2,
+    "name": "Hall",
+    "type": "room",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Hall.png"
+  },
+  {
+    "id": 5,
+    "name": "ROPE",
+    "type": "weapon",
+    "imageResource": "https://terror-prom-media.s3.amazonaws.com/weapon-images/rope.webp"
+  }
+]

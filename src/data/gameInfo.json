@@ -1,0 +1,96 @@
+{
+  "externalGameId": "70f83244-9cc3-4cc2-a5fe-9a1a03ad3b31",
+  "joinCode": "0p6UMG",
+  "gameName": "Test Game",
+  "players": [
+    {
+      "character": {
+        "imageResource": "https://terror-prom-media.s3.amazonaws.com/character-resources/peppermint.png",
+        "characterColor": "#FF2400",
+        "name": "Pepper Mint"
+      },
+      "name": "Jam"
+    },
+    {
+      "character": {
+        "imageResource": "https://terror-prom-media.s3.amazonaws.com/character-resources/col-mustard.png",
+        "characterColor": "#ffdb58",
+        "name": "Janitor Mustard"
+      },
+      "name": "Margaret"
+    }
+  ],
+  "currentPlayerSessionId": "2f1f1a0f-ba42-473d-8248-2c8c90e41395",
+  "locationInfo": {
+    "playerLocations": [
+      {
+        "characterColor": "#FF2400",
+        "hallwayId": "3",
+        "roomId": null
+      },
+      {
+        "characterColor": "#ffdb58",
+        "hallwayId": null,
+        "roomId": "2"
+      }
+    ]
+  },
+  "myHand": [
+    {
+      "id": 3,
+      "name": "Lounge",
+      "type": "room",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Lounge.png"
+    },
+    {
+      "id": 8,
+      "name": "Ballroom",
+      "type": "room",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Ballroom.png"
+    },
+    {
+      "id": 6,
+      "name": "Dining Room",
+      "type": "room",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Dining Room.png"
+    },
+    {
+      "id": 2,
+      "name": "CLARINET",
+      "type": "weapon",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/weapon-images/clarinet.webp"
+    },
+    {
+      "id": 6,
+      "name": "KNIFE",
+      "type": "weapon",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/weapon-images/knife.webp"
+    },
+    {
+      "id": 1,
+      "name": "Study",
+      "type": "room",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Study.png"
+    },
+    {
+      "id": 2,
+      "name": "Hall",
+      "type": "room",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Hall.png"
+    },
+    {
+      "id": 1,
+      "name": "Pepper Mint",
+      "type": "suspect",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/character-resources/peppermint.png"
+    },
+    {
+      "id": 4,
+      "name": "Library",
+      "type": "room",
+      "imageResource": "https://terror-prom-media.s3.amazonaws.com/room-images/Library.png"
+    }
+  ],
+  "public": false,
+  "started": true
+}�
