@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/brickwork.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/character-images/mustard.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/character-images/plum.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-images/gym.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-images/lab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-images/locker_room.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-images/principal_office.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/title-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/title-logo-2.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/clue-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clue-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rcb-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rcb-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/board/BoardDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/BoardDisplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/board/Hallway.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Hallway.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/board/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/characters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/gameInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gameInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hand.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/players.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/players.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/rooms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/weapons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/weapons.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2eQkxlbfGNMmcVgOBKanqULc1vG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging prod",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="" />
+      <created>1711844438330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711844438330</updated>
+      <workItem from="1711844440243" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
