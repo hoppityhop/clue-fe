@@ -1,41 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/brickwork.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/character-images/mustard.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/character-images/plum.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/gym.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/lab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/locker_room.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/principal_office.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/title-logo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/title-logo-2.xcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clue-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clue-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rcb-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rcb-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/BoardDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/BoardDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/Hallway.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Hallway.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Room.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/characters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/gameInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gameInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/hand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/players.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/players.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/rooms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/weapons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/weapons.js" afterDir="false" />
+    <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +16,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -56,18 +27,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jam/Documents/GitHub/clue-fe",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jam/Documents/GitHub/clue-fe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -86,10 +58,25 @@
       <option name="presentableId" value="Default" />
       <updated>1711844438330</updated>
       <workItem from="1711844440243" duration="10000" />
+      <workItem from="1711845043292" duration="222000" />
+      <workItem from="1711845266642" duration="13000" />
     </task>
+    <task id="LOCAL-00001" summary="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
+      <option name="closed" value="true" />
+      <created>1711845172171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711845172171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy." />
   </component>
 </project>
