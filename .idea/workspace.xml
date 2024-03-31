@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/brickwork.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/character-images/mustard.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/character-images/plum.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/gym.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/lab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/locker_room.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-images/principal_office.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/title-logo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/title-logo-2.xcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clue-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clue-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rcb-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rcb-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/BoardDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/BoardDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/Hallway.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Hallway.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Room.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/characters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/gameInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gameInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/hand.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hand.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/players.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/players.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/rooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/rooms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/weapons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/weapons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +10,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2eQkxlbfGNMmcVgOBKanqULc1vG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging prod",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +49,21 @@
       </map>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="clue-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="clue-client" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,6 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1711844438330</updated>
       <workItem from="1711844440243" duration="10000" />
+      <workItem from="1711844765162" duration="36000" />
+      <workItem from="1711844814421" duration="32000" />
     </task>
     <servers />
   </component>
