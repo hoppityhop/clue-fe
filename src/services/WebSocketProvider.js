@@ -4,8 +4,11 @@ import {over} from 'stompjs';
 import {useCookies} from "react-cookie";
 import {useParams} from "react-router-dom";
 import PropTypes from "prop-types";
+import dotenv from 'dotenv';
 
 const WebSocketContext = createContext(null);
+
+const API = process.env.REACT_APP_API_URL;
 
 export const useWebSocket = () => {
     return useContext(WebSocketContext);
@@ -27,7 +30,7 @@ const WebSocketProvider = ({children}) => {
             }
 
 
-            let Sock = new SockJS('http://localhost:8080/ws');
+            let Sock = new SockJS(API + '/ws');
             let client = over(Sock);
             await client.connect({}, () => {
                 setStompClient(client);

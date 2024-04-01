@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL_BASE = 'http://localhost:8080/api/game'
+const API_URL_BASE = 'https://clue-fe-68f5bf77cc33.herokuapp.com/api/game'
 
 /**
  * Sends a new game session to the server and stores the response data in the browser's local storage.
