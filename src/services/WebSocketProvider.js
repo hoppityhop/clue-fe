@@ -4,7 +4,6 @@ import {over} from 'stompjs';
 import {useCookies} from "react-cookie";
 import {useParams} from "react-router-dom";
 import PropTypes from "prop-types";
-import dotenv from 'dotenv';
 
 const WebSocketContext = createContext(null);
 
