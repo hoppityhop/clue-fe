@@ -25,7 +25,7 @@ const getCharacter = async (characterId) => {
  * @returns {Promise<void>}
  */
 const getAvailableCharacters = async (joinCode) => {
-    const urlToCall = `https://clue-fe-68f5bf77cc33.herokuapp.com/api/game/available/${joinCode}`
+    const urlToCall = process.env.REACT_APP_API_URL + `/api/game/available/${joinCode}`
     const responseObject = await axios.get(urlToCall);
     const responseData = responseObject.data;
     console.log(responseData);

@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/WebSocketProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/WebSocketProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/characterService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/characterService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/gameService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/gameService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/playerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/playerService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/updateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/updateService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +57,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -62,6 +69,11 @@
         <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jmoga\Documents\GitHub\clue-fe" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -90,7 +102,8 @@
       <workItem from="1711845043292" duration="222000" />
       <workItem from="1711845266642" duration="13000" />
       <workItem from="1711936694345" duration="1005000" />
-      <workItem from="1711937762294" duration="1453000" />
+      <workItem from="1711937762294" duration="4038000" />
+      <workItem from="1712471121700" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
       <option name="closed" value="true" />
@@ -105,6 +118,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy." />

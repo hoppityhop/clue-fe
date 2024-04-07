@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 //const API_URL_BASE = 'https://jsonplaceholder.typicode.com/posts'
-const API_URL_BASE = 'http://localhost:8000/api/'
+const API_URL_BASE = process.env.REACT_APP_API_URL + '/api/'
 
 const getAllPosts = async () => {
     var responseObject = await axios.get(`${API_URL_BASE}`)
@@ -41,7 +41,7 @@ const createPost = async postText => {
 const getAllCharacters = async () => {
 
 
-    var responseObject = await axios.get('https://clue-fe-68f5bf77cc33.herokuapp.com/api/characters/')
+    var responseObject = await axios.get(process.env.REACT_APP_API_URL + '/api/characters/')
     var responseData = responseObject.result
 
     // console.log(typeof responseData)

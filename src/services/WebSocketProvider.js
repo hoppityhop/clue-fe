@@ -31,12 +31,16 @@ const WebSocketProvider = ({children}) => {
 
             let Sock = new SockJS(API + '/ws');
             let client = over(Sock);
+            client.debug = () => {};
             await client.connect({}, () => {
                 setStompClient(client);
             });
+
+
         }
 
         initSocket().then(r => console.log("Socket initialized"));
+
 
         return () => {
             if (stompClient && stompClient.connected) {

@@ -54,7 +54,7 @@ const getPlayerBySessionId = async (sessionId) => {
 }
 
 const getPlayersInGameSession = async (externalGameId) => {
-    const response = await axios.get(`https://clue-fe-68f5bf77cc33.herokuapp.com/api/game/id/${externalGameId}/players`);
+    const response = await axios.get(process.env.REACT_APP_API_URL + `/api/game/id/${externalGameId}/players`);
     // console.log(response.data)
     return response.data;
 }

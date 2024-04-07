@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL_BASE = 'https://clue-fe-68f5bf77cc33.herokuapp.com/api/game'
+const API_URL_BASE = process.env.REACT_APP_API_URL + '/api/game'
 
 /**
  * Sends a new game session to the server and stores the response data in the browser's local storage.
@@ -10,6 +10,7 @@ const API_URL_BASE = 'https://clue-fe-68f5bf77cc33.herokuapp.com/api/game'
  */
 const postNewGame = async newGameSession => {
     console.log(newGameSession)
+    console.log(process.env.REACT_APP_API_URL);
     const responseObject = await axios.post(API_URL_BASE, newGameSession);
     const responseData = responseObject.data;
     console.log(responseData)
