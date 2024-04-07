@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="Prepare application for deployment on Heroku&#10;&#10;The package.json file has been updated with new scripts to support Heroku deployment. In characterService.js, the hardcoded API endpoints have been replaced with references to environment variables, allowing for flexibility across different environments.">
+      <change afterPath="$PROJECT_DIR$/src/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/characterService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/characterService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1711845266642" duration="13000" />
       <workItem from="1711936694345" duration="1005000" />
       <workItem from="1711937762294" duration="4038000" />
-      <workItem from="1712471121700" duration="491000" />
+      <workItem from="1712471121700" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
       <option name="closed" value="true" />
@@ -107,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711845172171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Prepare application for deployment on Heroku&#10;&#10;The package.json file has been updated with new scripts to support Heroku deployment. In characterService.js, the hardcoded API endpoints have been replaced with references to environment variables, allowing for flexibility across different environments.">
+      <option name="closed" value="true" />
+      <created>1712471636291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712471636291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy." />
+    <MESSAGE value="Prepare application for deployment on Heroku&#10;&#10;The package.json file has been updated with new scripts to support Heroku deployment. In characterService.js, the hardcoded API endpoints have been replaced with references to environment variables, allowing for flexibility across different environments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare application for deployment on Heroku&#10;&#10;The package.json file has been updated with new scripts to support Heroku deployment. In characterService.js, the hardcoded API endpoints have been replaced with references to environment variables, allowing for flexibility across different environments." />
   </component>
 </project>

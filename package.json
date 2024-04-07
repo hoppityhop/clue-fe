@@ -37,7 +37,6 @@
   },
   "scripts": {
     "heroku-prebuild": "npm install -g serve",
-    "heroku-postbuild": "serve -s build",
     "devstart": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
