@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const API_URL_BASE = 'http://localhost:8000/api/characters'
-const API_URL_USER_BASE = 'http://localhost:8000/api/users'
+const API_URL_BASE = process.env.REACT_APP_API_URL + '/api/characters'
+const API_URL_USER_BASE = process.env.REACT_APP_API_URL + '/api/users'
 
 const getAllCharacters = async () => {
     var responseObject = await axios.get(API_URL_BASE)
