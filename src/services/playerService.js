@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL_BASE = "http://localhost:8080/api/players";
+const API_URL_BASE = process.env.REACT_APP_API_URL + "/api/players";
 
 /**
  * Sends join code, player name, and character to
@@ -54,7 +54,7 @@ const getPlayerBySessionId = async (sessionId) => {
 }
 
 const getPlayersInGameSession = async (externalGameId) => {
-    const response = await axios.get(`http://localhost:8080/api/game/id/${externalGameId}/players`);
+    const response = await axios.get(process.env.REACT_APP_API_URL + `/api/game/id/${externalGameId}/players`);
     // console.log(response.data)
     return response.data;
 }
