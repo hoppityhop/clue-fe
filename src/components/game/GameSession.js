@@ -33,10 +33,10 @@ const GameSession = () => {
         }, []);
 
         const checkForGameAndPlayer = async () => {
-            console.log(gameId);
+            //console.log(gameId);
             //check if player is in game
             const player = await playerService.getPlayerBySessionId(cookies.sessionId);
-            console.log(player);
+            //console.log(player);
             if (!player || player.gameSession.externalGameId !== gameId) {
                 navigate("/");
             }

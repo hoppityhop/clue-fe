@@ -10,10 +10,10 @@ const API_URL_BASE = process.env.REACT_APP_API_URL + "/api/players";
  */
 const joinGame = async (joinGameRequest) => {
     let urlToCall = `${API_URL_BASE}`;
-    console.log(urlToCall);
+    //console.log(urlToCall);
     const response = await axios.post(urlToCall,
         joinGameRequest);
-    console.log(response);
+    //console.log(response);
     return response.data;
 
     window.localStorage.setItem("sessionId", response.data.session_id);
@@ -24,38 +24,38 @@ const joinGame = async (joinGameRequest) => {
 const moveCharacter = async (id, roomID, hallwayID, charID) => {
 
     var urlToCall = `${API_URL_BASE}${id}/character/${charID}/`;
-    console.log(urlToCall);
+    //console.log(urlToCall);
 
 
     const data = roomID != null ? {"room_id": roomID} : {"hallway_id": hallwayID}
 
     await axios.put(urlToCall, data)
         .then(response => {
-            console.log(response);
+            //console.log(response);
         })
         .catch(error => {
-            console.log(error);
-            console.log(urlToCall);
-            console.log(data);
+            //console.log(error);
+            //console.log(urlToCall);
+            //console.log(data);
         })
 
 };
 
 const getUser = async (sessionId) => {
     const response = await axios.get(`${API_URL_BASE}/${sessionId}`);
-    console.log(response.data)
+    //console.log(response.data)
     return response.data;
 }
 
 const getPlayerBySessionId = async (sessionId) => {
     const response = await axios.get(`${API_URL_BASE}/sessionId/${sessionId}`);
-    // console.log(response.data)
+    // //console.log(response.data)
     return response.data;
 }
 
 const getPlayersInGameSession = async (externalGameId) => {
     const response = await axios.get(process.env.REACT_APP_API_URL + `/api/game/id/${externalGameId}/players`);
-    // console.log(response.data)
+    // //console.log(response.data)
     return response.data;
 }
 

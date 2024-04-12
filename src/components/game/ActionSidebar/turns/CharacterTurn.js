@@ -17,7 +17,7 @@ const CharacterTurn = (props) => {
     const {myTurn, currentPlayer, nextPlayer} = useInfo();
 
     useEffect(() => {
-        // console.log("My turn? " + myTurn);
+        // //console.log("My turn? " + myTurn);
     }, []);
 
 

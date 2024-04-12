@@ -14,7 +14,7 @@ const GuessItem = ({name, image, stateFunction}) => {
     const passUpStateOnClick = (e) => {
         const value = e.currentTarget.getAttribute("alt");
         setSelected(!selected);
-        console.log(value);
+        //console.log(value);
         stateFunction(value);
     };
 

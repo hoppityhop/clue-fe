@@ -59,9 +59,9 @@ const Hallway = (props) => {
                 id = {"hall" + hallwayKey}
                 onClick={() => {
                     makeMove(hallwayKey, false);
-                    console.log("*****HALLWAY MOVE REQUEST MADE*****");
-                    console.log("hallwayKey: " + hallwayKey);
-                    console.log("sessionId: " + sessionId);
+                    //console.log("*****HALLWAY MOVE REQUEST MADE*****");
+                    //console.log("hallwayKey: " + hallwayKey);
+                    //console.log("sessionId: " + sessionId);
                 }}
             >
                 <Card.Text

@@ -18,17 +18,17 @@ const GuessSection = (props) => {
 
    const manageState = (v) => {
       if (selectedItem === v) {
-         console.log(`First if chosen with ${v}`);
+         //console.log(`First if chosen with ${v}`);
          setSelectedItem("");
       } else {
          if (selectedItem !== "") {
-            console.log(`Second if chosen with ${v}`);
+            //console.log(`Second if chosen with ${v}`);
             alert(`You have already selected a ${title}!
 Unselect ${selectedItem} to select a new ${title}.`);
          } else {
-            console.log(`Third if chosen with ${v}`);
+            //console.log(`Third if chosen with ${v}`);
             setSelectedItem(v);
-            console.log(selectedItem);
+            //console.log(selectedItem);
          }
       }
    };

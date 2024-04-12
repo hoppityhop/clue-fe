@@ -86,7 +86,7 @@ const AccusationButton = (props) => {
     }
 
     const addWeapon = (v) => {
-        console.log(v);
+        //console.log(v);
         setWeapon(v);
     };
 

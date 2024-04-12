@@ -51,10 +51,10 @@ const CreateForm = ({show, handleClose}) => {
             return
         }
 
-        console.log('Submitted')
-        console.log(e.target[0].value)
-        console.log(e.target[1].value)
-        console.log(isPublic)
+        //console.log('Submitted')
+        //console.log(e.target[0].value)
+        //console.log(e.target[1].value)
+        //console.log(isPublic)
 
         setGameName(enteredName)
         setIsPublic(isPublic)

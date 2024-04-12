@@ -24,7 +24,7 @@ const WebSocketProvider = ({children}) => {
 
         const initSocket = async () => {
             if (stompClient && stompClient.connected) {
-                console.log("Already connected");
+                //console.log("Already connected");
                 return
             }
 
@@ -39,12 +39,12 @@ const WebSocketProvider = ({children}) => {
 
         }
 
-        initSocket().then(r => console.log("Socket initialized"));
+        initSocket().then(r => {console.log("Socket initialized")});
 
 
         return () => {
             if (stompClient && stompClient.connected) {
-                console.log("Closing connection");
+                //console.log("Closing connection");
                 stompClient.disconnect();
             }
         }

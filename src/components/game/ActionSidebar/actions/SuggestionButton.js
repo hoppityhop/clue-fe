@@ -80,17 +80,17 @@ const SuggestionButton = (props) => {
 
 
     const addWeapon = (v) => {
-        // console.log(v);
+        // //console.log(v);
         setWeapon(v);
     };
 
     const addSuspect = (v) => {
-        // console.log(v);
+        // //console.log(v);
         setCharacter(v);
     };
 
     const addRoom = (v) => {
-        console.log(v);
+        //console.log(v);
         setRoom(v);
     };
 

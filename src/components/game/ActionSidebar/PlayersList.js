@@ -11,7 +11,7 @@ const PlayersList = ({currentPlayers}) => {
 
     const {gameId} = useParams();
     const {stompClient} = useWebSocket();
-    // console.log("Is the client connected? " + (stompClient != null));
+    // //console.log("Is the client connected? " + (stompClient != null));
 
 
     useEffect(() => {
@@ -28,10 +28,10 @@ const PlayersList = ({currentPlayers}) => {
 
     const onPlayerJoin = (payload) => {
         let payloadData = JSON.parse(payload.body);
-        // console.log(payloadData);
+        // //console.log(payloadData);
         //I now want to append the new player to the list of players
         let newPlayer = payloadData;
-        // console.log(newPlayer);
+        // //console.log(newPlayer);
         //if the person already exists in the list, don't add them again
         let playerExists = false;
         players.forEach((player) => {
@@ -44,7 +44,7 @@ const PlayersList = ({currentPlayers}) => {
             return;
         }
         let newPlayers = [...players, newPlayer];
-        console.log(newPlayers);
+        //console.log(newPlayers);
         setPlayers(newPlayers);
     }
 

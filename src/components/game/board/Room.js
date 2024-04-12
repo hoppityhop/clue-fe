@@ -44,7 +44,7 @@ const Room = (props) => {
     }, [playerLocations]);
 
 
-    //console.log(stateInfo);
+    ////console.log(stateInfo);
     return (
         <Button
             style={{
@@ -59,9 +59,9 @@ const Room = (props) => {
             id={"room" + roomKey}
             onClick={() => {
                 makeMove(roomKey, true);
-                console.log("****ROOM MOVE REQUEST MADE****");
-                console.log("sessionId: " + sessionId);
-                console.log("roomKey: " + roomKey);
+                //console.log("****ROOM MOVE REQUEST MADE****");
+                //console.log("sessionId: " + sessionId);
+                //console.log("roomKey: " + roomKey);
             }}
         >
             <Image key={roomName} src={roomImage} width={"100%"} rounded

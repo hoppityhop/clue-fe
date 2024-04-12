@@ -30,7 +30,7 @@ export const InfoProvider = ({children}) => {
     const navigate = useNavigate();
     const {gameId} = useParams();
     const {stompClient} = useWebSocket();
-    // console.log(stompClient != null);
+    // //console.log(stompClient != null);
 
     //MANAGES GAME START
     const gameIsStarted = () => {
@@ -47,7 +47,7 @@ export const InfoProvider = ({children}) => {
 
     const onMyHand = (payload) => {
         const hand = JSON.parse(payload.body);
-        // console.log(hand)
+        // //console.log(hand)
         handleHand(hand);
     }
     const getMyHand = () => {
@@ -61,7 +61,7 @@ export const InfoProvider = ({children}) => {
 
     const onNewTurn = (payload) => {
         const turnInfo = JSON.parse(payload.body);
-        console.log(turnInfo);
+        //console.log(turnInfo);
 
         setCurrentPlayer(turnInfo.currentPlayer);
         setNextPlayer(turnInfo.nextPlayer);
@@ -70,7 +70,7 @@ export const InfoProvider = ({children}) => {
 
     const onMyTurn = (payload) => {
         const turnInfo = JSON.parse(payload.body);
-        console.log(turnInfo);
+        //console.log(turnInfo);
         setMyTurn(turnInfo);
     }
     const changeTurn = (bool) => {
@@ -82,7 +82,7 @@ export const InfoProvider = ({children}) => {
 
     const onLocationsReceived = (payload) => {
         const locations = JSON.parse(payload.body);
-        // console.log(locations.playerLocations);
+        // //console.log(locations.playerLocations);
         setPlayerLocations(locations.playerLocations);
     }
 
@@ -122,16 +122,14 @@ export const InfoProvider = ({children}) => {
      * This will need to occur via a websocket message.
      */
     useEffect(() => {
-        console.log("InfoProvider useEffect runs.")
+        //console.log("InfoProvider useEffect runs.")
         runEffect();
     }, [stompClient]);
 
 
     const runEffect = async () => {
         if (stompClient && stompClient.connected) {
-            console.log("InfoProvider's runEffect function runs" +
-                "" +
-                "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
             stompClient.subscribe('/player/' + cookies.sessionId + '/gameInfo', onGameInfo);
             stompClient.subscribe('/player/' + cookies.sessionId + "/myTurn", onMyTurn);
             stompClient.subscribe('/player/' + cookies.sessionId + '/error', onError);
@@ -148,14 +146,14 @@ export const InfoProvider = ({children}) => {
     //GAME INFO MANAGEMENT
 
     const retrieveGameInfo = () => {
-        console.log("Retrieving game info.")
+        //console.log("Retrieving game info.")
         stompClient.send('/app/game/' + gameId + '/getGameInfo', {}, cookies.sessionId);
     }
 
     const onGameInfo = async (payload) => {
         let payloadData = JSON.parse(payload.body);
-        // console.log(payloadData);
-        // console.log(payloadData.players);
+        // //console.log(payloadData);
+        // //console.log(payloadData.players);
         totalGameInfoSet(payloadData);
         await setGameStarted(payloadData.started)
         if (payloadData.started) {

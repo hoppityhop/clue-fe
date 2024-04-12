@@ -33,7 +33,7 @@ const PublicGames = () => {
 
             }}
         >
-            Public Games
+            Public Games (Coming Soon)
             <br/>
 
 

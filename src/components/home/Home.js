@@ -37,12 +37,12 @@ const Home = () => {
             const sessionId = cookies.sessionId;
             const player = await playerService.getPlayerBySessionId(sessionId);
             if (player) {
-                console.log("Player found");
-                console.log(player);
+                //console.log("Player found");
+                //console.log(player);
                 const gameId = player.gameSession.externalGameId;
                 navigate(`/game/${gameId}`);
             } else {
-                console.log("No player found");
+                //console.log("No player found");
                 //TODO: delete the game and session cookies
                 removeCookie("sessionId");
                 removeCookie("gameId");
@@ -50,7 +50,7 @@ const Home = () => {
 
 
         } else {
-            console.log("No session id cookie found");
+            //console.log("No session id cookie found");
         }
 
 

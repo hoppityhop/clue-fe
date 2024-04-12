@@ -36,14 +36,11 @@ const GameControl = ({gameId}) => {
 
     useEffect(() => {
         runEffect();
-        console.log("Game Control use effect runs.")
+        //console.log("Game Control use effect runs.")
     }, [stompClient]);
 
     const runEffect = async () => {
         if (stompClient && stompClient.connected) {
-            console.log("Game Control's runEffect function runs, " +
-                "which means the stompClient is connected." +
-                "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 
             await subscribeToTopicsAndSignalJoin();
             await userJoin();
@@ -77,11 +74,11 @@ const GameControl = ({gameId}) => {
     }
 
     function onSuggestionResponse(payload) {
-        console.log("Suggestion response received");
+        //console.log("Suggestion response received");
 
         const suggestionBroadcast = JSON.parse(payload.body);
-        console.log(suggestionBroadcast.playerSessionId)
-        console.log(cookies.sessionId)
+        //console.log(suggestionBroadcast.playerSessionId)
+        //console.log(cookies.sessionId)
 
         setSuggestion(
             {
@@ -157,9 +154,9 @@ const GameControl = ({gameId}) => {
 
 
     function onGameStart(payload) {
-        console.log("Message received to start game");
+        //console.log("Message received to start game");
         gameIsStarted();
-        console.log(payload);
+        //console.log(payload);
         setGameState(true);
     }
 

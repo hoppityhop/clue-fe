@@ -44,8 +44,8 @@ const getAllCharacters = async () => {
     var responseObject = await axios.get(process.env.REACT_APP_API_URL + '/api/characters/')
     var responseData = responseObject.result
 
-    // console.log(typeof responseData)
-    // console.log(responseObject)
+    // //console.log(typeof responseData)
+    // //console.log(responseObject)
 
     return responseData
 }

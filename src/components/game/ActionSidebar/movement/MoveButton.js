@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 const MoveButton = (props) => {
    const handleClick = () => {
-      console.log("clicked");
+      //console.log("clicked");
    };
 
    return (

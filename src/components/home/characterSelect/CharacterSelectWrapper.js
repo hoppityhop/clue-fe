@@ -27,12 +27,12 @@ const CharacterSelectWrapper = () => {
 
    useEffect(() => {
       fetchCharacters();
-      console.log(characters[0]);
+      //console.log(characters[0]);
    }, []);
 
    const fetchCharacters = async () => {
       var characterList = await characterService.getAllCharacters();
-      console.log(characterList);
+      //console.log(characterList);
 
       var charsToSet = [];
 
@@ -44,14 +44,14 @@ const CharacterSelectWrapper = () => {
          charsToSet.push(characterObject);
       });
 
-      console.log(charsToSet);
+      //console.log(charsToSet);
 
       setCharacters(charsToSet);
    };
 
    const selectClicked = async (e) => {
       e.preventDefault();
-      console.log("Clicked");
+      //console.log("Clicked");
       characterService.selectCharacter(selectedCharacter);
       setModalShow(false);
    };

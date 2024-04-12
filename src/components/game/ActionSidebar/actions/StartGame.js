@@ -12,8 +12,8 @@ const StartGame = ({gameId}) => {
     const [cookies, setCookie, removeCookie] = useCookies([]);
     const {stompClient} = useWebSocket();
     const {gameIsStarted, gameStarted} = useInfo();
-    // console.log(gameIsStarted);
-    // console.log(gameStarted);
+    // //console.log(gameIsStarted);
+    // //console.log(gameStarted);
 
 
     const startGame = async () => {

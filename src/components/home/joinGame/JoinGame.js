@@ -34,8 +34,8 @@ const JoinForm = () => {
      */
     const gameJoin = async (e) => {
         e.preventDefault();
-        console.log(e.target[0].value);
-        console.log(e.target[1].value);
+        //console.log(e.target[0].value);
+        //console.log(e.target[1].value);
         setPlayerNameError("");
         setJoinCodeError("");
         const enteredJoinCode = e.target[0].value;
@@ -51,16 +51,16 @@ const JoinForm = () => {
             return;
         }
 
-        console.log("Submitted");
-        console.log(e.target[0].value);
-        console.log(e.target[1].value);
+        //console.log("Submitted");
+        //console.log(e.target[0].value);
+        //console.log(e.target[1].value);
 
         await setPlayerName(enteredPlayerName);
         await setJoinCode(enteredJoinCode);
 
         const availableCharactersToSet = await
             characterService.getAvailableCharacters(enteredJoinCode);
-        console.log(availableCharacters);
+        //console.log(availableCharacters);
         setAvailableCharacters(availableCharactersToSet);
 
         setModalShow(true);

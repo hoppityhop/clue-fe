@@ -37,14 +37,14 @@ const CharacterSelectModal = (props) => {
 
         const handleClick = (e) => {
             let value = e.currentTarget.getAttribute("value");
-            console.log(value);
+            //console.log(value);
             value = parseInt(value);
-            console.log(value);
+            //console.log(value);
             setSelectedCharacter(value);
         };
 
         const selectCharacter = async (e) => {
-            console.log("Clicked");
+            //console.log("Clicked");
             let externalGameId;
             if (props.newGame) {
                 const newGameSession = {
@@ -55,7 +55,7 @@ const CharacterSelectModal = (props) => {
                 }
 
                 const newGameConfirmation = await gameService.postNewGame(newGameSession);
-                console.log(newGameConfirmation);
+                //console.log(newGameConfirmation);
                 externalGameId = newGameConfirmation.externalGameId;
                 let sessionId = newGameConfirmation.sessionId;
                 setCookie('externalGameId', externalGameId, {
@@ -73,8 +73,8 @@ const CharacterSelectModal = (props) => {
                     characterId: selectedCharacter,
                 }
                 const joinConfirmation = await playerService.joinGame(joinGameRequest);
-                console.log(joinGameRequest);
-                console.log(joinConfirmation);
+                //console.log(joinGameRequest);
+                //console.log(joinConfirmation);
                 setCookie('sessionId', joinConfirmation.sessionId, {
                     path: '/',
                     maxAge: 3600
@@ -129,7 +129,8 @@ const CharacterSelectModal = (props) => {
                                         <Card.Body>
                                             <Card.Title>{character.name}</Card.Title>
                                         </Card.Body>
-                                        <Card.Img variant="bottom" src={character.imageResource}/>
+                                        <Card.Img variant="bottom"
+                                                  src={character.imageResource}/>
                                     </Card>
                                 </Col>
                             ))}
