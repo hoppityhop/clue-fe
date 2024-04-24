@@ -5,42 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="Prepare application for deployment on Heroku&#10;&#10;The package.json file has been updated with new scripts to support Heroku deployment. In characterService.js, the hardcoded API endpoints have been replaced with references to environment variables, allowing for flexibility across different environments.">
-      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/237.6ae64f74.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/237.6ae64f74.chunk.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.bae50641.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.bae50641.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Clue_C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/MyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/PlayersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/PlayersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/AccusationButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/AccusationButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/StartGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/StartGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/SuggestionButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/SuggestionButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/guessing/GuessItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/guessing/GuessItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/guessing/GuessSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/guessing/GuessSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/movement/MoveButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/movement/MoveButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/turns/CharacterTurn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/turns/CharacterTurn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/GameControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/GameControl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/GameSession.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/GameSession.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/Hallway.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Hallway.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/board/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/board/Room.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/context/InfoProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/context/InfoProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/characterSelect/CharacterSelectWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/createGame/CreateForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/joinGame/JoinGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/joinGame/JoinGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/publicGames/PublicGames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/publicGames/PublicGames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/gameInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gameInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/players.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/players.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/WebSocketProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/WebSocketProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/characterService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/characterService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/gameService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/gameService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/playerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/playerService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/updateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/updateService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +21,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hoppityhop&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hoppityhop/terrorprom-client.git&quot;,
+    &quot;accountId&quot;: &quot;f1376555-9366-46b7-ae10-65da6142a6af&quot;
+  }
+}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
@@ -75,22 +53,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jam/Documents/GitHub/clue-fe/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "ts.external.directory.path": "/snap/intellij-idea-ultimate/490/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jam/Documents/GitHub/clue-fe/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/intellij-idea-ultimate/490/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -159,6 +137,8 @@
       <workItem from="1711937762294" duration="4038000" />
       <workItem from="1712471121700" duration="668000" />
       <workItem from="1712886636227" duration="2721000" />
+      <workItem from="1713837205672" duration="986000" />
+      <workItem from="1713838779889" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
       <option name="closed" value="true" />

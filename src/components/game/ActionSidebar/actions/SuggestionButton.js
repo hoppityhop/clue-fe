@@ -66,6 +66,7 @@ const SuggestionButton = (props) => {
 
             setShowOffCanvas(true);
         } else if (!proof.proof) {
+            setImagePath("https://terror-prom-media.s3.amazonaws.com/sharp-solid-lightbulb-exclamation-circle-bolt.svg");
             await setProofHeader("I think you got it!");
             await setProofBody("Make an accusation as soon as possible to win the game!");
             setShowOffCanvas(true);
@@ -76,6 +77,7 @@ const SuggestionButton = (props) => {
 
     const handleClose = () => {
         setShowOffCanvas(false);
+        setImagePath("");
     }
 
 
@@ -142,10 +144,11 @@ const SuggestionButton = (props) => {
                               style={{
                                   backgroundColor: "#444444",
                                   fontFamily: "Jockey One",
-                              border: "none"}}
+                                  border: "none"
+                              }}
                 >
                     <Modal.Title
-                    style = {{color: "white"}}
+                        style={{color: "white"}}
                     >
                         <h2>Make a Suggestion</h2>
                         <p>Choose a weapon, suspect, and room.</p>
@@ -153,7 +156,8 @@ const SuggestionButton = (props) => {
                 </Modal.Header>
                 <Modal.Body
                     className="grid-example"
-                    style={{backgroundColor: "#444444",
+                    style={{
+                        backgroundColor: "#444444",
 
                     }}
                 >
