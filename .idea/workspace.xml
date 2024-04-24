@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="139a94fb-41c0-49b6-8648-73b68efd5a63" name="Changes" comment="Prepare application for deployment on Heroku&#10;&#10;The package.json file has been updated with new scripts to support Heroku deployment. In characterService.js, the hardcoded API endpoints have been replaced with references to environment variables, allowing for flexibility across different environments.">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/SuggestionButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/ActionSidebar/actions/SuggestionButton.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,7 @@
       <workItem from="1712471121700" duration="668000" />
       <workItem from="1712886636227" duration="2721000" />
       <workItem from="1713837205672" duration="986000" />
-      <workItem from="1713838779889" duration="1783000" />
+      <workItem from="1713838779889" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="Update XML components and file path in workspace.xml&#10;&#10;The XML component 'ProjectColorInfo' has been updated to a more legible format. A string indicating the 'git-widget-placeholder' was removed and 'last_opened_file_path' updated to reflect the correct location. Changes have been made in '.idea/workspace.xml' to enhance readability and accuracy.">
       <option name="closed" value="true" />
